@@ -1,0 +1,93 @@
+body {
+	margin:0;
+	padding:0;
+	/*
+	--pink: #CF92B7;
+  	--green: #59876B;
+  	--grey: #4A4A4A;
+}
+	*/
+}
+
+div#logo {
+	background: #4A4A4A;
+	padding: 5px;
+	min-height: 20px;
+}
+div h1 {
+	color: white;
+	font-family: lato, sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #4A4A4A;
+	font-family: roboto, sans-serif;
+}
+
+li.active {
+	color: #59876B;
+	border-bottom: 3px solid #59876B;
+}
+
+li:hover {
+	border-bottom: 3px solid #59876B;
+}
+
+/* ABOUT US */
+
+section h1 span {
+	border-bottom: 5px solid crimson;
+	font-family: arial, sans-serif;
+}
+
+.about h3  {
+	margin: 30px;
+}
+
+.about {
+	margin: 30px;
+	color: grey;
+	font-size: 18px;
+	line-height: 50px;
+	font-family: arial, sans-serif;
+}
+
+/* END */
+
+section h1 {
+	margin: 20px;
+	text-align: center;
+	font-weight: bold;
+	color:crimson;
+	text-transform: uppercase;
+
+}
+
+
+.services {
+	display: flex;
+	min-width:  80%;
+	font-family: arial, sans-serif;
+}
+
+.service-item {
+	margin: 40px;
+	padding: 10px;
+	line-height: 30px;
+	color: grey;
+}
+
+.service-item h3 {
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+}
